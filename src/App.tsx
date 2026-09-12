@@ -13,14 +13,18 @@ function App() {
 
   return (
     <> 
-
+    
+<div className="bg-gray-300 container mx-auto">
     <Navber></Navber>
+    <hr />
     <Hero></Hero>
     <Technologies></Technologies>
     <TechnologyCard></TechnologyCard>
     <YourStack></YourStack>
     <StackItem></StackItem>
     <Footer></Footer>
+    
+ </div>
     </>
   )
 }
