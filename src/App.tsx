@@ -1,32 +1,29 @@
-import Footer from "./Components/Footer"
-import Hero from "./Components/Hero"
-import Navber from "./Components/Navber"
-import StackItem from "./Components/StackItem"
-import Technologies from "./Components/Technologies"
-import TechnologyCard from "./Components/TechnologyCard"
-import YourStack from "./Components/YourStack"
+// App.tsx
 
 
+import Hero from "./Components/Hero";
+import Technologies from "./Components/Technologies";
+import YourStack from "./Components/YourStack";
+import Footer from "./Components/Footer";
+import Navbar from "./Components/Navbar";
 
 function App() {
-  
-
   return (
-    <> 
-    
-<div className="bg-gray-300 container mx-auto">
-    <Navber></Navber>
-    <hr />
-    <Hero></Hero>
-    <Technologies></Technologies>
-    <TechnologyCard></TechnologyCard>
-    <YourStack></YourStack>
-    <StackItem></StackItem>
-    <Footer></Footer>
-    
- </div>
+    <>
+      <Navbar />
+
+      <Hero />
+
+      <main className="container mx-auto px-4">
+        <div className="flex flex-col gap-8 lg:flex-row">
+          <Technologies />
+          <YourStack />
+        </div>
+      </main>
+
+      <Footer />
     </>
-  )
+  );
 }
 
-export default App
+export default App;
