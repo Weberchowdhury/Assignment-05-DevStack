@@ -88,3 +88,7 @@ If there are no selected technologies, it shows the empty message. Otherwise, it
 ### 7. How do you pass data from a parent component to a child component, and how does a child send something back to the parent?
 
 A parent passes data to a child using props. A child can communicate back to the parent by calling a function that the parent passed as a prop.
+
+
+
+###. There is an important thing I want to share with you that (honastly) I sant my code to chatGPT after I wrote, and share what it created for me becouse chatGPT's code was a little bit surprising.... 
