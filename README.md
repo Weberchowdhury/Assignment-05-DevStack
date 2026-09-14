@@ -92,3 +92,10 @@ A parent passes data to a child using props. A child can communicate back to the
 
 
 ###. There is an important thing I want to share with you that (honastly) I sant my code to chatGPT after I wrote, and share what it created for me becouse chatGPT's code was a little bit surprising.... 
+
+
+###. Please read it
+
+Commit গুলোতে যে আমি কি লিখেছি, আল্লাহ! রিভিও করতে গিয়ে নিজেই থ। এমনকি Completed এর স্থানে লিখেছি Complitad। আমার মাথা পুরাই গেছে ভাই রিয়েক্ট বুঝতে গিয়ে। 
+আর এখানে আসলে যে Commit লিখা উচিত ছিলো সেটা হলো 
+Completed StackItem.tsx, Technologies.tsx, TechnologyCard.tsx, YourStack.tsx, technology.ts, README.md and json file. But instead, I wrote "Complitad however I can." I honestly don't know why I wrote that. 
